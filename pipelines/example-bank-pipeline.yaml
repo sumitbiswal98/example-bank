@@ -52,7 +52,7 @@ spec:
         - code-analysis
       taskRef:
         kind: Task
-        name: s2i-java
+        name: s2i-java-8
     - name: build-user
       params:
         - name: TLSVERIFY
@@ -72,7 +72,7 @@ spec:
         - code-analysis
       taskRef:
         kind: Task
-        name: s2i-java
+        name: s2i-java-8
     - name: build-ui
       params:
         - name: TLSVERIFY
