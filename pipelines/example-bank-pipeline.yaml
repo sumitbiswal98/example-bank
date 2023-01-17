@@ -19,7 +19,7 @@ spec:
           value:
             - install
             - 'sonar:sonar'
-            - '-Dsonar.host.url=http://sonarqube:9000'
+            - '-Dsonar.host.url=sonarqube-bank-infra.apps.cluster-mknnh.mknnh.sandbox718.opentlc.com'
             - '-Dsonar.userHome=/tmp/sonar'
             - '-DskipITs'
             - '-Darguments=-DskipITs'
