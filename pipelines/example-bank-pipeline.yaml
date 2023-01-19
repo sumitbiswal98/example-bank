@@ -20,7 +20,7 @@ spec:
             - install
             - 'sonar:sonar'
             - '-Dsonar.host.url=https://sonarqube-bank-infra.apps.cluster-mknnh.mknnh.sandbox718.opentlc.com'
-            - '-Dsonar.login=squ_83596d2552b41e41aa499388273eca749befbdbc'
+            - '-Dsonar.login=squ_998cac2c4a060cb490759a483965dfad682623e1'
             - '-Dsonar.userHome=/tmp/sonar'
             - '-DskipITs'
             - '-Darguments=-DskipITs'
